@@ -11,3 +11,355 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.bg-grey{
+  background: rgb(230, 230, 230);
+  width: 100%;
+}
+
+.navbar{
+  padding:10px
+}
+.Logo{
+  height: 100px;
+  
+}
+
+.navbartext{
+  font-size: 12px;
+  color: red;
+  transition: ease-in-out 0.4s;
+  border-bottom: none;
+  
+}
+
+.navbartext:hover{
+  border-bottom: 1px solid rgb(19, 102, 150);
+}
+
+.fab {
+  font-size: 20px;
+  padding: 3px;
+  transition: all 0.4s;
+}
+.fab:hover{
+  color: aqua;
+}
+.fas{
+  padding-right: 4px;
+  color: black;
+}
+/*Banner*/
+
+.header-banner{
+ /*background: url("img/Paisajes3.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+
+.title-banner{
+  color: rgb(196, 101, 101);
+  font-family: 'Hurricane', cursive;
+  font-size: 75px;
+  font-weight: 500;
+}
+
+.text-banner{
+  font-size: 30px;
+  font-weight: 700;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-banner{
+background-color: tomato;
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+color: white;
+transition: all 0.4;
+}
+
+.btn-banner:hover{
+  background-color: rgb(197, 81, 61);
+}
+
+.imgbanner{
+  height: 250px;
+  margin-right: 10px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-banner-desc{
+  color: rgb(196, 101, 101);
+  font-family: 'Hurricane', cursive;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.text-banner-desc{
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(153, 152, 152);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Objectives*/
+
+.flex{
+  display: flex;
+  margin: 30px 60px auto;
+}
+.col{
+  flex-basis: calc(20% - 30px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.objective-title{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 35px;
+  color: rgb(211, 60, 60);
+  text-transform: uppercase;
+}
+
+.objective-text{
+  margin:0 14px;
+  text-align: center;
+  }
+
+  .img-coach{
+    width: 250px;
+    transition: all 0.4s;
+  }
+
+  .img-coach:hover{
+    width: 260px
+  }
+
+  .containercentered{
+    position: relative;
+  }
+  .containercentered img{
+    width: 100%;
+    height: 150px;
+    opacity: 0.8;
+  }
+  
+  .containercenteredtext h2{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    color: rgb(196, 101, 101);
+    font-family: 'Hurricane', cursive;
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /*Description*/
+
+  .title-banner-description{
+    color: rgb(196, 101, 101);
+    font-family: 'Hurricane', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .text-banner-description{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(153, 152, 152);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .imgbanner{
+    width: 100%;
+    padding-right: 15px;
+  }
+
+  .flexbutton{
+    text-align: end;
+    color: rgb(204, 99, 99);
+  }
+  
+  /*InfoandVideo*/
+
+  .infovideoback{
+      background: url("img/Paisaje2.jpg") no-repeat center center fixed;
+      -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding: 50px;
+  }
+
+    .infovideoelements{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .title-info-description{
+      color: rgb(196, 101, 101);
+      font-family: 'Hurricane', cursive;
+      font-size: 55px;
+      font-weight: 500;
+      letter-spacing: 4px;
+    }
+
+    .text-info-description{
+      font-size: 25px;
+      font-weight: 900;
+      color: rgb(158, 14, 14);
+      letter-spacing: 4px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .btn-description{
+      background-color: rgb(15, 32, 32);
+      text-transform: uppercase;
+      padding: 10px;
+      margin: auto 110px;
+      margin-top: 20px;
+      color: aliceblue;
+    }
+
+      /*VideoSegment*/
+
+      .videoelement{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+      }
+      .title-video-description{
+        color: rgb(196, 101, 101);
+        font-family: 'Hurricane', cursive;
+        font-size: 55px;
+        font-weight: 500;
+        letter-spacing: 4px;
+      }
+
+      .text-video-description{
+        font-size: 12px;
+        width: 80%;
+        font-weight: 900;
+        text-align: center;
+        color: rgb(172, 168, 168);
+        letter-spacing: 2px;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+        /*Grid*/
+        .grid-containerelement {
+         /*display: grid;
+          grid-template-columns: auto auto auto; Numero de columnas*/
+          background-color: #2196F3;
+          padding: 20px;
+          column-gap: 50px;
+          width: 45%;
+          margin: 0 auto;
+          border: 1px solid;
+          box-shadow: 5px 10px 8px  20px rgb(10, 10, 10);
+        }
+        .grid-itemelement {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          color: white;
+          font-weight: 700;
+          height: 60px;
+          font-size: 16px;
+          margin: 10px;
+          text-align: top;
+          padding: 5px;
+        }
+
+/*Footer*/
+
+.footer{
+  background-color: rgb(228, 228, 228);
+}
+
+/*Contact-Page*/
+.Contact-back{
+  background: url("img/Paisaje8.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  padding: 50px
+}
+
+.title-Contact-description{
+  color: rgb(101, 126, 196);
+  font-family: 'Hurricane', cursive;
+  font-size: 75px;
+  font-weight: 500;
+  text-align: start;
+  margin-bottom: -20px;
+  margin-left: 120px;
+  letter-spacing: 4px;
+}
+.text-Contact-description{
+  font-weight: 500;
+  font-size: 75px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: rgb(101, 126, 196);
+  font-family: 'Hurricane', cursive;
+  letter-spacing: 4px;
+}
+
+.btn-contact button {
+  margin: 0 auto;
+  padding: 8px;
+  color: white;
+  background-color: #333;
+  transition: all 0.4s;
+}
+
+.btn-contact button:hover{
+  background-color: rgb(92, 92, 92);
+}
+
+.Contact-text{
+  margin: 30px auto 80px 40px;
+  padding: 50px
+}
+
+.Contactext{
+  color: rgb(196, 112, 101);
+  font-family: 'Hurricane', cursive;
+  letter-spacing: 2px;
+}
+
+.Contactext h3{
+  font-size: 40px;
+}
+
+.Contactparragraph{
+  font-size: 12px;
+  color: rgb(148, 131, 131);
+  font-family: 'lato', 'Source Sans Pro', sans-serif;
+}
+
+/*Form*/
+.form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+textarea{
+  resize: none;
+}
